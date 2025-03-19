@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechAlpha</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="icon2.png" type="image/x-icon">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="TechAlpha Hub" class="logo"> 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link scroll-link" href="#" data-target=".courses">Our Courses</a></li>
+                    <li class="nav-item"><a class="nav-link scroll-link" href="#" data-target=".Services">Our Services</a></li>
+                    <li class="nav-item"><a class="nav-link scroll-link" href="#" data-target=".about-us">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div style="height: 50px;"></div>
+
+    <div class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h4>Learn, Build, and Grow with Us</h4>
+            <h1>We offer <span id="animated-text"></span></h1>
+            <p>TechAlpha Hub is a technology innovation and skill development center dedicated to empowering individuals with in-demand digital skills. We offer hands-on training in web development, mobile app development, data analysis, digital marketing, and more. Our mission is to bridge the digital skills gap and nurture future tech leaders.            </p>
+            <div>
+                <!-- Buttons -->
+            <button class="btn btn-custom" onclick="scrollToSection('our-courses')">Get Started With Our Courses</button>
+            <button class="btn btn-custom" onclick="scrollToSection('our-services')">Learn More</button>
+
+
+<style>
+
+</style>
+
+            </div>
+        </div>
+    </div>
+    <section  id="our-services" class="Services">
+        <!-- Background Video -->
+        <video autoplay loop muted playsinline class="bg-video">
+            <source src="vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+        <!-- Overlay for better readability -->
+        <div class="overlay"></div>
+    
+        <div class="container position-relative">
+            <h2 class="section-title text-white text-center">Our Services</h2>
+    
+            <div class="container py-5">
+                <div class="row g-4">
+            
+                    <!-- Card 1 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Web Services</h5>
+                                <div class="accordion" id="accordion1">
+                                    <!-- Web Development -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#service1">
+                                                Web Development
+                                            </button>
+                                        </h2>
+                                        <div id="service1" class="accordion-collapse collapse show" data-bs-parent="#accordion1">
+                                            <div class="accordion-body">
+                                                We build modern, scalable websites using <b>HTML, CSS, JavaScript, Node.js, and MongoDB</b>.
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <!-- WordPress Design -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service2">
+                                                Web Design with WordPress
+                                            </button>
+                                        </h2>
+                                        <div id="service2" class="accordion-collapse collapse" data-bs-parent="#accordion1">
+                                            <div class="accordion-body">
+                                                We create <b>stunning WordPress websites</b> for businesses, eCommerce, and blogs.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 2 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Branding & Design</h5>
+                                <div class="accordion" id="accordion2">
+                                    <!-- Branding -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service3">
+                                                Branding
+                                            </button>
+                                        </h2>
+                                        <div id="service3" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                                            <div class="accordion-body">
+                                                We offer <b>logo design, brand identity, social media branding, and business cards</b>.
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <!-- Video Editing -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service4">
+                                                Video Editing
+                                            </button>
+                                        </h2>
+                                        <div id="service4" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+                                            <div class="accordion-body">
+                                                We provide <b>high-quality video editing</b> for social media, corporate videos, and advertisements.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 3 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Education & Training</h5>
+                                <div class="accordion" id="accordion3">
+                                    <!-- Graphics Design -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service5">
+                                                Graphics Design
+                                            </button>
+                                        </h2>
+                                        <div id="service5" class="accordion-collapse collapse" data-bs-parent="#accordion3">
+                                            <div class="accordion-body">
+                                                We create <b>flyers, posters, brochures, business cards, and social media designs</b>.
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <!-- Tutoring -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service6">
+                                                Tutoring
+                                            </button>
+                                        </h2>
+                                        <div id="service6" class="accordion-collapse collapse" data-bs-parent="#accordion3">
+                                            <div class="accordion-body">
+                                                We offer expert training in **technology and digital skills**. Our courses include:
+                                                <ul>
+                                                    <li>Front-end Web Development</li>
+                                                    <li>Back-end Web Development</li>
+                                                    <li>Web Design with WordPress</li>
+                                                    <li>Database Management</li>
+                                                    <li>Mobile App Development</li>
+                                                    <li>Digital Marketing</li>
+                                                    <li>Social Media Management</li>
+                                                    <li>Content Creation</li>
+                                                    <li>Data Analysis</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="our-courses" class="courses py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 text-primary">Our Courses</h2>
+            <div class="row g-4">
+                
+                <!-- Frontend Web Development -->
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">Frontend Web Development</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">₦100,000</h6>
+                            <p class="card-text">Learn HTML, CSS, JavaScript, and modern frameworks like React.js to build stunning user interfaces.</p>
+                            <a href="https://wa.me/2347066155981?text=I'm%20interested%20in%20Frontend%20Web%20Development" class="btn btn-success">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Backend Web Development -->
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">Backend Web Development</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">₦100,000</h6>
+                            <p class="card-text">Master Node.js, Express.js, databases, and API development for building powerful web applications.</p>
+                            <a href="https://wa.me/2347066155981?text=I'm%20interested%20in%20Backend%20Web%20Development" class="btn btn-success">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Fullstack Web Development -->
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">Fullstack Web Development</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">₦200,000</h6>
+                            <p class="card-text">Become a full-stack developer by mastering both frontend and backend technologies.</p>
+                            <a href="https://wa.me/2347066155981?text=I'm%20interested%20in%20Fullstack%20Web%20Development" class="btn btn-success">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Web Design with WordPress -->
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">Web Design with WordPress</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">₦100,000</h6>
+                            <p class="card-text">Learn how to design professional websites using WordPress, themes, and plugins.</p>
+                            <a href="https://wa.me/2347066155981?text=I'm%20interested%20in%20Web%20Design%20with%20WordPress" class="btn btn-success">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Canva Designs -->
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">Canva Designs</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">₦50,000</h6>
+                            <p class="card-text">Master graphic design with Canva and create professional designs for social media and branding.</p>
+                            <a href="https://wa.me/2347066155981?text=I'm%20interested%20in%20Canva%20Designs" class="btn btn-success">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Data Analysis with Excel -->
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">Data Analysis with Excel</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">₦50,000</h6>
+                            <p class="card-text">Learn data analysis using Microsoft Excel, including formulas, pivot tables, and data visualization.</p>
+                            <a href="https://wa.me/2347066155981?text=I'm%20interested%20in%20Data%20Analysis%20with%20Excel" class="btn btn-success">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    
+    <section class="why-us py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center text-primary mb-4">Why Choose Us?</h2>
+            <p class="text-center mb-5">We provide top-quality training to help you build a successful tech career.</p>
+    
+            <div class="row g-4">
+                
+                <!-- Expert Instructors -->
+                <div class="col-md-4">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front d-flex flex-column align-items-center justify-content-center">
+                                <i class="fas fa-chalkboard-teacher fa-3x text-success"></i>
+                                <h5 class="mt-3">Expert Instructors</h5>
+                            </div>
+                            <div class="flip-box-back d-flex align-items-center justify-content-center">
+                                <p>Learn from experienced professionals with real-world industry knowledge.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Hands-on Training -->
+                <div class="col-md-4">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front d-flex flex-column align-items-center justify-content-center">
+                                <i class="fas fa-laptop-code fa-3x text-warning"></i>
+                                <h5 class="mt-3">Hands-on Training</h5>
+                            </div>
+                            <div class="flip-box-back d-flex align-items-center justify-content-center">
+                                <p>Get practical experience through projects, assignments, and real-world applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Career Support -->
+                <div class="col-md-4">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front d-flex flex-column align-items-center justify-content-center">
+                                <i class="fas fa-briefcase fa-3x text-danger"></i>
+                                <h5 class="mt-3">Career Support</h5>
+                            </div>
+                            <div class="flip-box-back d-flex align-items-center justify-content-center">
+                                <p>We provide mentorship, CV reviews, and job placement assistance after training.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <section class="about-us py-5">
+        <div class="overlay"></div>
+        <div class="container position-relative">
+            <h2 class="text-center text-white mb-4">About Us</h2>
+            <p class="text-center text-white mb-5">At TechAlpha Hub, we are committed to empowering individuals with cutting-edge digital skills to thrive in the tech industry.</p>
+    
+            <div class="row">
+                <!-- Vision -->
+                <div class="col-md-4">
+                    <div class="about-card p-4 text-center">
+                        <i class="fas fa-eye fa-3x text-primary mb-3"></i>
+                        <h4 class="text-white">Our Vision</h4>
+                        <p>To be the leading technology hub transforming lives through digital empowerment and innovation.</p>
+                    </div>
+                </div>
+    
+                <!-- Mission -->
+                <div class="col-md-4">
+                    <div class="about-card p-4 text-center">
+                        <i class="fas fa-bullseye fa-3x text-success mb-3"></i>
+                        <h4 class="text-white">Our Mission</h4>
+                        <p>To provide high-quality tech training, mentorship, and hands-on experience that prepares individuals for global opportunities.</p>
+                    </div>
+                </div>
+    
+                <!-- Core Values -->
+                <div class="col-md-4">
+                    <div class="about-card p-4 text-center">
+                        <i class="fas fa-heart fa-3x text-danger mb-3"></i>
+                        <h4 class="text-white">Our Core Values</h4>
+                        <ul class="list-unstyled text-start d-inline-block text-white">
+                            <li><i class="fas fa-check text-primary"></i> Excellence</li>
+                            <li><i class="fas fa-check text-primary"></i> Innovation</li>
+                            <li><i class="fas fa-check text-primary"></i> Integrity</li>
+                            <li><i class="fas fa-check text-primary"></i> Collaboration</li>
+                            <li><i class="fas fa-check text-primary"></i> Empowerment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Navigation Links -->
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-link" id="scrollToCourses">Our Courses</a></li>
+                        <li><a href="#" class="footer-link" id="scrollToServices">Our Services</a></li>
+                        <li><a href="#" class="footer-link" id="scrollToAbout">About Us</a></li>
+                        <li><a href="#" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Social Media Links -->
+                <div class="col-md-4 text-center">
+                    <h5>Follow Us</h5>
+                    <a href="https://web.facebook.com/treasure155" class="text-white mx-2"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://x.com/Techalphahub" class="text-white mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="https://www.instagram.com/techalphafoundation/" class="text-white mx-2"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="http://t.me/TreasureIdem" class="text-white mx-2"><i class="fab fa-telegram fa-2x"></i></a>
+                </div>
+    
+                <!-- Copyright -->
+                <div class="col-md-4 text-end">
+                    <h5>Contact Us</h5>
+                    <p>Email: admin@techalphahub.com</p>
+                    <p>Phone: +2347066155981</p>
+                    <p>&copy; 2025 TechAlpha Hub. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Smooth Scroll Script -->
+    <script>
+        document.getElementById("scrollToCourses").addEventListener("click", function(event) {
+            event.preventDefault();
+            document.querySelector(".courses").scrollIntoView({ behavior: "smooth" });
+        });
+    
+        document.getElementById("scrollToServices").addEventListener("click", function(event) {
+            event.preventDefault();
+            document.querySelector(".Services").scrollIntoView({ behavior: "smooth" });
+        });
+    
+        document.getElementById("scrollToAbout").addEventListener("click", function(event) {
+            event.preventDefault();
+            document.querySelector(".about-us").scrollIntoView({ behavior: "smooth" });
+        });
+        document.querySelectorAll(".scroll-link").forEach(link => {
+        link.addEventListener("click", function(event) {
+            event.preventDefault();
+            document.querySelector(this.getAttribute("data-target")).scrollIntoView({ behavior: "smooth" });
+        });
+    });
+    </script>
+    
+    <script>
+        var typed = new Typed("#animated-text", {
+            strings: ["Innovative Learning", "Creative Solutions"],
+            typeSpeed: 80,
+            backSpeed: 50,
+            loop: true
+        });
+
+        function scrollToSection(sectionId) {
+        document.getElementById(sectionId).scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
